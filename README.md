@@ -24,7 +24,8 @@ HTML
   </tr>
   </table>
  
- <HTML 문서의 기본 구조>
+ 
+ <HTML 문서의 기본 구조>           
 
 <!DOCTYPE html>
 <html land="ko">
@@ -40,5 +41,7 @@ HTML
    <p>자바스크립트</p>
   </body>
  </html>
+ 
+ 
   
  

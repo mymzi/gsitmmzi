@@ -9,6 +9,78 @@
 HTML
 1. CSS
 2. 자바스크립트
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+    td, th{border:solid 1px;}
+    table {
+        border-collapse:collapse;
+        }
+</style>
+</head>
+<body>
+    <table style="width:100%;border:solid 1px;">
+        <tr>
+          <th>No</th>
+          <th>Title</th>
+          <th>Whiter</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+
+<h4 style="color:red">This is a Heading</h1>
+<p style="color:blue">This is a paragraph.</p>
+<a href="javascript:movew3school()">This is a link</a>
+<br/>
+<br/>
+<br/>
+<form method="post" action="view.html">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+    <input type="submit" value="전송">
+  </form>
+<img src="https://cdn.pixabay.com/photo/2021/08/06/18/46/dog-6526980_960_720.jpg" alt="W3Schools.com" width="104" height="142">
+<p>
+    This paragraph<br/>
+    contains a lot of lines<br/>
+    in the source code,<br/>
+    but the browser<br/>
+    ignores it.<br/>
+    </p>
+    
+    <p>
+    This paragraph<br/>
+    contains         a lot of spaces<br/>
+    in the source         code,<br/>
+    but the        browser<br/>
+    ignores it.<br/>
+    </p>
+   
+    
+</body>
+<script>
+    function movew3school () {
+        window.location.href = "https://www.w3schools.com";
+    }
+</script>
+</html>
+
+
+
 <h1>2-3</h1>
 <h2 style="color:#0000FF;">태그를 사용해서 웹 브라우저에 나타내기</h2>
 
@@ -107,4 +179,59 @@ HTML
   <code>function savetheLocal()</code><br>
   small : 부가 정보처럼 작게 표시해도 되는 텍스트임
   <p>가격 : 13,000원 <small>(부가세 별도)</small></p><br>
-  sub : 아래 첨자를 표시함
+  sub : 아래 첨자를 표시함<br>
+  <p>물의 화학식은 H<sub>2</sub>0입니다</p>
+  s : 취소선을 표시함<br>
+  <p><s>34,000원</s>19,000원</
+  u : 밑줄을 표시함<br>
+  <u>텍스트에 단순히 밑줄 긋기</u><br>
+  ins : 공동 작업 문서에서 새로운 내용을 삽입함<br>
+  <ins>새로운 내용을 삽입합니다</ins><br>
+  del : 공동 작업 문서에서 기존 내용을 삭제함<br>
+  <del>기존 내용을 삭제함</del>
+  
+  <h2>텍스트 태그 여러 개 삽입하기</h2>
+  
+  <!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>탐라국 입춘굿</title>
+        <link rel="stylesheet" href="css/poster.css">        
+    </head>
+    <body>
+        <div id="container">
+            <h3>탐라국 입춘굿</h3>
+            <p>탐라국 입춘굿은 입춘을 맞아 풍년을 기원하는 행사로, 제주도의 문화 축제 중에서 유일하게 탐라 시대부터 이어져 왔다.</p>
+            <p>제주에서는 입춘을 새철이라 한다. <br>신구간이 끝나 하늘의 1만 8,000 신이 지상으로 내려와 새해 일을 시작하는 때다.</p>
+            <p>자세한 정보 보기</p>
+            <h4>일정</h4>
+            <h4>먹거리</h4>
+        </div>
+    </body>
+</html>
+  
+  <h2>순서 있는 목록을 만드는 oi,li,태그</h2>
+  1.oi태그에서는 type, start 속성을 사용할 수 있다
+  2.oi type='a'
+  3.순서 없는 목록은 ui태그를 사용한다.
+  4.설명목록을 만든 dl,dt,dd태그가 있다
+  
+  <ol>
+    <li>항목1</li>
+    <li>항목2</li>
+  <ol>
+    
+ <h2>표를 만드는 table, caption 태그</h2>
+    table 태그 안에 tr 태그는 행을 만들고 td 태그는 행 안에 있는 셀을 만들기 때문에 두 태그 모두 모여야 하나의 셀을 만들 수 있음
+    
+    <table>
+    <tr>
+      <td>1행 1열</td>
+      <td>1행 2열</td>
+    </tr?
+    <tr>
+      <td>2행 1열</td>
+      <td>2행 2열</td>
+    </tr>
+  </table>

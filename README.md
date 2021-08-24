@@ -103,5 +103,8 @@ HTML
   <abbr title="Internet of Things">IOT</abbr><br>
   cite : 웹 문서나 포스트에서 참고 내요을 표시함
   <p>내가 경험한 가장 흥미진진한 일은 누군가를 만나는 일이다 - 영화, <cite>'비포선셋'</cite>중</p>
-  code : 컴퓨터 인식을 위한 소스 코드임
-  <code>function savetheLocal()</code>
+  code : 컴퓨터 인식을 위한 소스 코드임<br>
+  <code>function savetheLocal()</code><br>
+  small : 부가 정보처럼 작게 표시해도 되는 텍스트임
+  <p>가격 : 13,000원 <small>(부가세 별도)</small></p><br>
+  sub : 아래 첨자를 표시함

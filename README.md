@@ -1,4 +1,4 @@
-# slef-study
+# self-study
 대상
 
 1. html 사용자에게 게시판을 구현한다.

@@ -24,24 +24,44 @@ HTML
   </tr>
   </table>
  
+ 시맨틱 태그를 사용하여 만든 웹 문서
  
- <HTML 문서의 기본 구조>           
-
-<!DOCTYPE html>
-<html land="ko">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML 기본 문서</title>
-  </head>
-  <body>
-   <h1>프런트엔드 웹 개발</h1>
-   <hr>
-   <p>HTML</p>
-   <p>CSS</p>
-   <p>자바스크립트</p>
-  </body>
- </html>
+ <div id="container">
+  <header>
+    <div id="logo">
+      <a href="#"><h1>Dream Jeju</h1></a>
+    </div>
+    <nav>
+      <ul id="topMenu">
+        <li><a href="#">단체 여행</a></li>
+        <li><a href="#">맞춤 여행</a></li>
+        <li><a href="#">갤러리</a></li>
+        <li><a href="#">문의하기</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="contents">
+    <section id="headling">
+      <h2>몸과 마음이 치유되는 섬</h2>
+    </section>
+    <section id="activity">
+      <h2>다양한 액티비티가 기다리는 섬</h2>
+    </section>
+  </main>
+  <footer>
+    <section id="bottomMenu">
+      <ul>
+        <li><a href="#">회사 소개</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">여행 약관</a></li>
+        <li><a href="#">사이트맵</a></li>
+      </ul>
+    </section>
+  </footer>
+  </div>
  
  
-  
- 
+ 제목 텍스트 삽입하기
+ <h1>레드향</h1>
+ <h2>레드향 샐러드 레시피</h2>
+ <h2>tkdvna rntjd</ㅗ2>
